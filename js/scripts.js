@@ -13,4 +13,4 @@ let pokemonList = [
 //     }
 // }
 
-pokemonList.forEach(pokemon => document.write(pokemon));
+pokemonList.forEach(pokemon => document.write(`<p> name: ${pokemon.name}, height: ${pokemon.height}, types: ${pokemon.types} </p>`));
